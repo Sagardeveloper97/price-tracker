@@ -3,6 +3,7 @@ let fetchRes = fetch(
   "https://Amazon.com");
           // fetchRes is the promise to resolve
           // it by using.then() method
+          //add comment
           fetchRes.then(res =>
               res.json()).then(d => {
                   console.log(d)
